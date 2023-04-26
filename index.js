@@ -5,7 +5,7 @@ document.getElementById("submitButton").onclick = function () {
     let guess = document.getElementById ("guessField").value
     guesses +=1;
     if ( guess == answer){
-        alert ('${answer} is the #. it took you ${guesses} guesses');
+        alert ("${answer} is the #. it took you ${guesses} guesses");
     }
     else if (guess < answer){
         alert("Too small!");
